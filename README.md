@@ -47,6 +47,18 @@ __Options and defaults:__
 };
 ```
 
+## Styling
+
+I suggest adding some CSS like this:
+
+```css
+.iframe-preview {
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 50px rgba( 0, 0, 0, 0.2 );
+}
+```
+
 ## Caveats
 
 This uses a CSS transform to scale the iframe. Obviously, IE<10 is not supported. This was hacked together pretty quickly to serve a single use-case, so it does not yet support declaring which side of the target element the iframe should appear. Right now, it is only to the left, though one could use a negative `targetOffset` whose value is equal to `-targetElement.offset().width`. 

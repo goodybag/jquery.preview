@@ -1,0 +1,22 @@
+{
+  "name": "jquery.preview",
+  "version": "0.1.0",
+  "homepage": "https://github.com/goodybag/jquery.preview",
+  "authors": [
+    "John Fawcett <jrf0110@gmail.com>"
+  ],
+  "description": "jQuery plugin for previewing hrefs",
+  "main": "src/jquery.preview.js",
+  "keywords": [
+    "jQuery",
+    "preview"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
